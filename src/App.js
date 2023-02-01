@@ -1,12 +1,20 @@
 import './App.css';
-import Header from'./Header';
-import Recipes from './pages/Recipes';
+
+import { NavLink } from 'react-router-dom';
+import Routes from './routes/routes';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Recipes />
+    <div className="App">
+      <div>
+        <NavLink to="/">
+          Home
+        </NavLink>
+        <NavLink to="/recipes">
+          Recipes
+        </NavLink>
+      </div>
+      <Routes />
     </div>
   );
 }
