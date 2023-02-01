@@ -6,7 +6,7 @@ import Recipes from '../pages/Recipes'
 const Routes = () => {
   return (
     <RoutesDom>
-    <Route index element={<Home />} />
+    <Route path="/" element={<Home />} />
     <Route path="recipes" element={<Recipes />} />
   </RoutesDom>
   )

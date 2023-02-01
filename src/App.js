@@ -1,21 +1,15 @@
-import './App.css';
+import './App.scss';
+import Header from './Header'
+import Routes from './routes/routes'
 
-import { NavLink } from 'react-router-dom';
-import Routes from './routes/routes';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <NavLink to="/">
-          Home
-        </NavLink>
-        <NavLink to="/recipes">
-          Recipes
-        </NavLink>
-      </div>
+    <>
+      <Header />
       <Routes />
-    </div>
+    </>
+
   );
 }
 
