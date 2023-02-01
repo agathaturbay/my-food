@@ -1,5 +1,5 @@
 import './App.scss';
-import Header from './Header'
+import Header from './shared/Header'
 import Routes from './routes/routes'
 
 
