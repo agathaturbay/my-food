@@ -1,5 +1,5 @@
-import Banner from '../home/Banner';
-import RecipeBanner from '../home/RecipeBanner';
+import Banner from './Banner';
+import RecipeBanner from './RecipeBanner';
 
 function Home (){
 	return (

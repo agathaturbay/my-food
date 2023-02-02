@@ -1,7 +1,7 @@
 import { Route, Routes as RoutesDom } from "react-router-dom";
 
-import Home from '../pages/Home';
-import Recipes from '../pages/Recipes'
+import Home from '../pages/home/Home';
+import Recipes from '../pages/recipes/Recipes'
 
 const Routes = () => {
   return (
