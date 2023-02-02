@@ -1,8 +1,9 @@
+import Banner from '../home/Banner';
 
 function Home (){
 	return (
         <>
-            <h1>hi</h1>
+            <Banner />
         </>
     )
 }

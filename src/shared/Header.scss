@@ -3,8 +3,8 @@
 .Header_bg{
     height: 125px;
     text-align: center;
-    background-color: #ddcbb8;
-    box-shadow: style.$shadow;
+    background-color: style.$primary-color;
+    box-shadow: style.$box-shadow;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;

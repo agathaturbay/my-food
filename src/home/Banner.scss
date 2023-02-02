@@ -1,0 +1,14 @@
+@use '../style';
+
+.Banner-img {
+    background-image: url('../assets/food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    margin-top: 2rem;
+
+    .Banner-text {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
