@@ -1,7 +1,7 @@
 /*--------------------------------------------------Colors---------------------------------------------*/
-$primary-color: #77a8ac;
+$primary-color: #7a121e;
 $btn-primary: #efb113;
-$btn-secondary: #555555;
+$btn-secondary: #fffbee;
 
 /*-------------------------------------------------Effects---------------------------------------------*/
 $box-shadow: rgba(50, 50, 93, 0.35) 0px 13px 27px -5px, rgba(9, 30, 34, 0.3) 0px 8px 16px -8px;
@@ -79,6 +79,7 @@ $btn-shadow:
     top : 0 ;
     right : 54px ;
     width : 8px ;
+
 }
 
 .button__text::before{
@@ -121,6 +122,7 @@ $btn-shadow:
 }
 .button:hover{
     letter-spacing : 6px ;
+    color: #0A210F;
 }
 .button:hover::before,
 .button:hover .button__text::before{
