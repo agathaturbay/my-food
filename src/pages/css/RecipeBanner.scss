@@ -1,0 +1,46 @@
+@use '../../style.scss';
+
+.Recipes {
+    background-color: #f0eeee;
+    height: 500px;
+    margin: 2rem 0;
+    font-family: Missiri;
+    font-size: 25px;
+    text-align: center;
+
+    .Recipes-banner {
+        padding-top: 3rem;
+    }
+
+    .Chocolate-cookie {
+        min-width: 350px;
+        max-width: 500px;
+    }
+
+    .myButton {
+        box-shadow: 0px 10px 14px -7px #736927;
+        background:linear-gradient(to bottom, #fddd50 5%, #cca404 100%);
+        background-color:#ffdd44;
+        border-radius:8px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Georgia;
+        font-size:18px;
+        font-weight:bold;
+        padding:13px 32px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #8a773e;
+        border: 0 none;
+        margin-top: 2rem;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #cca404 5%, #fddd50 100%);
+        background-color:#a98700;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+}

@@ -1,16 +1,27 @@
-import './RecipeBanner.scss';
+import '../css/RecipeBanner.scss';
 import '../../style.scss'
-
+import cookie from '../../assets/Chocolate-chip-cookie.jpg';
+import { NavLink } from 'react-router-dom';
 function RegisterBanner (){
 	return (
         <div className='Recipes'>
-            <div className='Recipes-banner Title'>
-                Find a recipe!
+            <div className='Recipes-banner'>
+                DID YOU KNOW THAT
             </div>
-            <div className='Text Align-middle'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, diam eu accumsan interdum, erat orci facilisis velit, nec feugiat massa ante vitae arcu. 
-                Fusce maximus sem tortor, id dignissim turpis ultrices in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                Donec facilisis dolor tristique purus volutpat pellentesque.
+            <div className='row'>
+                <img src={cookie} className="Chocolate-cookie column" alt='chocolate cookie'/>
+                <div className=' column'>
+                    No one knows the origin of chocolate chip cookies?
+                    There are a few ideas of where this popular recipe came from.
+                    One suggests Ruth Wakefield, the creator of chocolate chip cookies, ran out of nuts for ice cream cookies and used chocolate instead.
+                    Others suggest chocolate chunks accidentally fell into the mixer, but the true story has never been confirmed.
+                    <br/>
+                    Find this and more recipes clicking here!
+                    <br/>
+                    <NavLink className="Page-button" to="/recipes">
+                        <button className="myButton">FIND RECIPES!</button>
+                    </NavLink>
+                </div>
             </div>
         </div>
     )

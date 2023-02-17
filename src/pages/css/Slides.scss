@@ -1,0 +1,14 @@
+@use '../../style';
+
+.slide_container {
+  margin: 3rem 0;
+
+  .slide_img {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+}

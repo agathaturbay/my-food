@@ -2,7 +2,7 @@ import './Recipes.scss';
 
 function Recipes (){
   return (
-    <h1>bye</h1>
+    <h1>Not ready yet, babes</h1>
   )
 }
 

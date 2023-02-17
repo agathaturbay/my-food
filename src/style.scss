@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Missiri;
+    src: url("./assets/fonts/ElMessiri-VariableFont_wght.ttf");
+};
+
 /*--------------------------------------------------Colors---------------------------------------------*/
 $primary-color: #7a121e;
 $btn-primary: #efb113;
@@ -18,9 +23,11 @@ $btn-shadow:
     position: relative;
 }
 
+/*-------------------------------------------------Columns---------------------------------------------*/
+
 .column {
     float: right;
-    width: 40%;
+    width: 50%;
     padding: 2.5rem;
 
     @media screen and (max-width: 600px) {
