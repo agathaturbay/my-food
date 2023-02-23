@@ -2,6 +2,9 @@
     height: 150px;
     margin-top: 2rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 
     .Footer-button {
         text-decoration: none;
