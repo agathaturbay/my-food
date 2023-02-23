@@ -17,20 +17,18 @@ function Footer (){
             <NavLink className="Footer-button" to="/about">
                 About
             </NavLink>
-        </div>
-        <div className='Social-media'>
-                <div className='Align-middle'>
-                    <Link to={{ pathname: "https://www.instagram.com/garciaa_tata/" }} target="_blank" className='Footer-social'>
-                        <AiOutlineInstagram />
-                    </Link>
-                    <Link to={{ pathname: "https://www.linkedin.com/in/agatha-garcia-1a650b213/" }} target="_blank" className='Footer-social'>
-                        <AiFillLinkedin />
-                    </Link>
-                    <Link to={{ pathname: "https://github.com/agathaturbay" }} target="_blank" className='Footer-social'>
-                        <AiOutlineGithub />
-                    </Link>
-                </div>
+            <div className='Social-media'>
+                <Link to={{ pathname: "https://www.instagram.com/garciaa_tata/" }} target="_blank" className='Footer-social'>
+                    <AiOutlineInstagram />
+                </Link>
+                <Link to={{ pathname: "https://www.linkedin.com/in/agatha-garcia-1a650b213/" }} target="_blank" className='Footer-social'>
+                    <AiFillLinkedin />
+                </Link>
+                <Link to={{ pathname: "https://github.com/agathaturbay" }} target="_blank" className='Footer-social'>
+                    <AiOutlineGithub />
+                </Link>
             </div>
+        </div>
     </div>
   )
 }

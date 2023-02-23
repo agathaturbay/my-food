@@ -2,16 +2,18 @@
     height: 150px;
     margin-top: 2rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
     .Footer-button {
         text-decoration: none;
         color: #9f9f9f;
-        margin: 0 2rem;
         font-size: 20px;
+        margin: 0 2rem;
     }
 
     .Footer-social {
+        text-decoration: none;
         color: #9f9f9f;
-        margin: 2rem;
         font-size: 30px;
+        margin: 0 1rem;
     }
 }
